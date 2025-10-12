@@ -1,0 +1,535 @@
+body {
+  background-image: url("../bd__media/pics/backGroungPicRun.jpg");
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: larger;
+  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.233);
+}
+a:hover {
+  color: rgba(64, 143, 247, 0.856);
+}
+
+/* .headerUl{
+    display: flex;
+    width: 70%;
+    height: 70px;
+    inset: 0;
+    position: relative;
+    margin: auto;
+    direction: rtl;
+    justify-content: space-around;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.headerLi{
+    display: inline;
+    width: 60px;
+    height: 30px;
+    font-size: medium;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 7px blue;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 4px 7px #fff , 4px -3px 7px #dfdfdf;
+    margin-left: 3%;
+    list-style-type: circle;
+    cursor: pointer;
+    transition-duration: 1s;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.headerLi:hover{
+    width: 60px;
+    height: 30px;
+    font-size: medium;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 7px blue;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 3px 4px 7px #fff , inset 4px -10px 7px #dfdfdf !important;
+    margin-left: 3%;
+    list-style-type: circle;
+    transition-duration: 1s;
+    cursor: pointer;
+} */
+
+.backGroundPicLi {
+  display: flex;
+  width: 110px;
+  height: 100px;
+  list-style-type: none;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-right: -5%;
+  margin-top: 0.5%;
+  border: none;
+  border-radius: 50px;
+  box-shadow: -3px -2px 9px 3px #fff;
+  background-image: url("../bd__media/pics/Mini_pic.jpg");
+  background-size: cover;
+  background-position: 130px;
+}
+
+.backGroundPicLi:hover {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  list-style-type: none;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  border: none;
+  border-radius: 50px;
+}
+
+/* ************************************************************************************************************** */
+.mainUl {
+  display: block;
+  width: 70px;
+  height: 200px;
+  margin: auto;
+  inset: 0;
+  margin-right: 5%;
+  margin-top: 5%;
+  float: right;
+}
+
+.mainLi {
+  display: inline-block;
+  width: 110px;
+  height: 80px;
+  margin: 5%;
+  inset: 0;
+  position: relative;
+  color: #fff;
+  background-image: linear-gradient(
+    to top,
+    #dfdfdf,
+    rgba(0, 0, 0, 0.945),
+    #dddddd
+  );
+  border: none;
+  border-radius: 15px;
+  margin-top: 100%;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.mainLi:hover {
+  width: 110px;
+  height: 80px;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    to top,
+    #424141cb,
+    rgb(255, 255, 255),
+    #353232f1
+  );
+  transition-duration: 0.5s;
+  border: none;
+  padding: 4%;
+
+  a {
+    color: rgb(0, 255, 128);
+  }
+}
+
+/* **************************************************************************************************************** */
+/* nav part */
+
+nav {
+  display: flex;
+  width: 1000px;
+  height: 80px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-left: 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.navUl {
+  display: flex;
+  margin-top: 80%;
+}
+
+.navLi1,
+.navLi2 {
+  display: inline;
+  width: 250px;
+  height: 30px;
+  margin-left: 2%;
+  transition-duration: 0.5s;
+}
+
+.navLi1:hover,
+.navLi2:hover {
+  width: 300px;
+  height: 30px;
+  margin-left: 2%;
+  transition-duration: 1s;
+}
+
+.Gender1,
+.Gender2 {
+  display: flex;
+  width: 200px;
+  height: 20px;
+  inset: 0;
+  position: relative;
+  margin-left: 20%;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  padding: 10%;
+  cursor: pointer;
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  box-shadow: 3px -02px 5px rgb(255, 255, 255), 2px 3px 8px rgb(252, 252, 252);
+  color: #fff;
+  background-color: black;
+  transition-duration: 0.4s;
+}
+
+.Gender1:hover,
+.Gender2:hover {
+  color: black;
+  background-color: white;
+  box-shadow: inset 3px -02px 5px black, 3px -2px 3px black !important;
+  transition-duration: 0.4s;
+  padding: 9%;
+}
+
+/* *************************** (start) change attributes by click on lady button ******************************** */
+.ladyBackground {
+  .Gender2 {
+    margin-left: -80%;
+    width: 500px;
+    color: black;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
+  .navLi2:hover {
+    width: 250px;
+    height: 30px;
+    transition-duration: 1s;
+  }
+}
+
+.changeBackGround {
+  .DetailsSpecifications {
+    background-image: url("../bd__media/pics/womenExercise.jpg");
+    background-size: cover;
+    transition-duration: 2s;
+  }
+
+  .Gender1 {
+    transition-duration: 1s;
+    display: none;
+  }
+
+  .Gender2:hover {
+    position: relative;
+    margin-left: -180px;
+    transition-duration: 1.5s;
+  }
+}
+/* ***************************(finish) change attributes by click on lady button ******************************** */
+
+/* *************************** change attributes by click on guy button ******************************** */
+.guyBackground {
+  .Gender1 {
+    width: 500px;
+    margin-right: -80%;
+    color: black;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
+  .navLi1:hover {
+    width: 250px;
+    height: 30px;
+
+    transition-duration: 1s;
+  }
+}
+
+.changeBackGroundGuy {
+  .DetailsSpecifications {
+    background-image: url("../bd__media/pics/liftWeight.jpg");
+    background-size: cover;
+    transition-duration: 2s;
+  }
+
+  .Gender2 {
+    transition-duration: 2s;
+    display: none;
+  }
+
+  .Gender1:hover {
+    position: relative;
+    margin-right: -180px;
+    transition-duration: 2s;
+  }
+}
+/* *************************** (finish) change attributes by click on guy button ******************************** */
+
+.DetailsSpecifications {
+  display: inline-block;
+  width: 700px;
+  height: 0px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to top,
+    #dfdfdfe0,
+    rgba(0, 0, 0, 0.897),
+    #dddddde3
+  );
+  box-shadow: inset 3px 4px 8px 3px rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition-duration: 2s;
+}
+
+.DetailsSpecifications2 {
+  height: 500px;
+
+  .completeForm {
+    transition-duration: 2s;
+    transition-delay: 2s;
+    visibility: visible;
+  }
+
+  .inputElems {
+    transition-duration: 2s;
+    transition-delay: 2s;
+    visibility: visible;
+  }
+
+  .specialDisease__div {
+    transition-duration: 2s;
+    transition-delay: 2s;
+    visibility: visible;
+  }
+
+  .goal {
+    transition-duration: 2s;
+    transition-delay: 2s;
+    visibility: visible;
+  }
+}
+
+.inputElems {
+  display: block;
+  width: 400px;
+  height: 200px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  visibility: hidden;
+}
+
+.input__Elem {
+  width: 250px;
+  height: 40px;
+  direction: rtl;
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  margin-top: 3%;
+  text-align: center;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+.specialDisease__div {
+  font-size: large;
+  color: #fff;
+  visibility: hidden;
+}
+
+.specialDisease__h3 {
+  font-size: x-large;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 3px 2px 5px red;
+}
+
+.diseaseKind {
+  width: 0px;
+  direction: rtl;
+  padding: 0.5% 0%;
+  font-weight: 600;
+  font-size: medium;
+  transition-duration: 1s;
+}
+
+.boxOfkindOfDisease {
+  width: 160px;
+  transition-duration: 1s;
+}
+
+.YES_disease {
+  margin-right: -2px;
+}
+
+.No_disease {
+  margin-left: 5px;
+  margin-right: -6px;
+}
+
+.noSpan {
+  font-size: x-large;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: inset 1px 2px 3px red, inset -1px -2px 3px red;
+  background-color: rgb(0, 0, 0);
+  margin: 0.5%;
+}
+
+.yesSpan {
+  font-size: x-large;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: inset 1px 2px 3px red, inset -1px -2px 3px red;
+  background-color: rgb(14, 13, 13);
+}
+
+.goal {
+  visibility: hidden;
+}
+
+.goal_h2 {
+  color: #fff;
+  text-shadow: 2px -2px 2px rgb(0, 0, 0);
+}
+
+.goalWordSpan {
+  text-shadow: 3px -3px 4px rgba(236, 11, 11, 0.87);
+}
+
+.chooseGoal {
+  font-size: large;
+  font-weight: 500;
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 1.4%;
+  border: none;
+  border-radius: 50px;
+}
+
+.chooseGoal:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.bulkBTNCut {
+  background-color: rgb(231, 179, 179);
+}
+
+/* **************************************************************************** */
+
+.allKindOfBodyBuilding {
+  display: flex;
+  width: 500px;
+  height: 000px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  background-image: linear-gradient(
+    to top,
+    #dfdfdf,
+    rgba(0, 0, 0, 0.945),
+    #dddddd
+  );
+  opacity: 1;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  margin-top: -5%;
+  transition-duration: 1.3s;
+
+  .KindOfBodyBuilding__Div {
+    visibility: hidden;
+  }
+}
+
+.allKindOfBodyBuilding__js {
+  height: 300px;
+  transition-duration: 1.3s;
+
+  .KindOfBodyBuilding__Div {
+    visibility: visible;
+    transition-delay: 1.2s;
+    transition-duration: 1s;
+  }
+}
+
+.KindOfBodyBuilding {
+  display: inline-block;
+  width: 100px;
+
+  color: #fff;
+  text-shadow: 2px -2px 2px black;
+  font-size: large;
+  font-weight: 600;
+  margin: 7%;
+  cursor: pointer;
+}
+
+.KindOfBodyBuilding:hover {
+  font-size: larger;
+}
+
+.completeForm {
+  margin-top: -2%;
+  margin-bottom: -1%;
+  color: #fff;
+  text-shadow: 2px -2px 2px black;
+  visibility: hidden;
+}

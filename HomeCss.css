@@ -1,0 +1,521 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(151, 145, 145, 0.884),
+      rgba(179, 168, 168, 0.89) 89
+    ),
+    rgba(145, 139, 139, 0.932);
+}
+
+.allContainer {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.headerDiv {
+  display: flex;
+  width: 1330px;
+  height: 500px;
+  background-image: url("../bd__media/pics/homeHeaderImg.webp");
+  background-size: cover;
+  background-position: 506.5rem;
+  margin: -1%;
+}
+
+.darkBox {
+  display: block;
+  width: 500px;
+  height: 515px;
+  background-color: rgba(15, 15, 15, 0.671);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.darkBoxH1 {
+  display: inline-block;
+  color: rgba(250, 7, 7, 0.918);
+  font-size: 45px;
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+.transform {
+  display: block;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.973);
+}
+
+.powerIcon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-image: url("../bd__media/logoImg/armPower2.png");
+  background-size: cover;
+  margin: auto;
+  inset: 0;
+  position: relative;
+  margin-bottom: -45%;
+  margin-left: -30%;
+  transition-duration: 0.8s;
+}
+
+.darkBoxH1:hover {
+  color: rgba(250, 7, 7, 0.918);
+  font-size: 45px;
+  position: relative;
+  transition-duration: 0.5s;
+
+  .powerIcon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-image: url("../bd__media/logoImg/armPower.png");
+    background-size: cover;
+    margin: auto;
+    inset: 0;
+    position: relative;
+    margin-bottom: -8%;
+    transition-duration: 0.7s;
+    margin-left: 37%;
+  }
+}
+
+span {
+  color: rgba(250, 7, 7, 0.918);
+}
+
+.transformExplain {
+  display: block;
+  font-size: smaller;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.911);
+  margin: 10%;
+}
+
+.headerListLine {
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  background-color: rgba(241, 9, 9, 0.979);
+  inset: 0;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.headerListLine__UL {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  list-style-type: circle;
+}
+
+.headerLiList {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-size: larger;
+  font-weight: 600;
+  box-shadow: inset 3px 4px 7px #fff, inset 4px -10px 7px #dfdfdf !important;
+  margin: 4%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.headerLiList:hover {
+  width: 100px;
+  height: 52px;
+  box-shadow: inset 3px 4px 7px #000000, inset 4px -10px 7px #181818 !important;
+  transition-duration: 0.3s;
+  color: #000;
+}
+
+/* *************************************************************************************************** */
+/* main part */
+
+.videosWallPapersContainer {
+  display: block;
+  width: 1100px;
+  height: 800px;
+  box-shadow: inset 4px 5px 9px #eceaeaf8, inset -4px -5px 8px #131212f8 !important;
+  background-image: linear-gradient(
+    to top,
+    rgba(235, 225, 225, 0.932),
+    rgba(238, 231, 231, 0.911),
+    rgba(243, 236, 236, 0.87)
+  );
+  inset: 0;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+/* 
+.video1{
+    width: 300px;
+    height: 300px;
+    margin: 3%;
+    border-radius: 50px;
+} */
+
+.cartsContainer {
+  display: flex;
+  width: 1100px;
+  height: 200px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+}
+
+.suggestionsDiv {
+  display: flex;
+  width: 550px;
+  height: 200px;
+  border: none;
+  border-radius: 15px;
+  background-image: url("../bd__media/pics/backGroundPic.jpg");
+  background-size: 500px;
+  margin: 2%;
+  direction: rtl;
+  transition-duration: 1.2s;
+  cursor: pointer;
+}
+
+.ExplainBox__h1 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  text-shadow: 2px -2px 4px black;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  margin-right: 2%;
+  transition-duration: 0.4s;
+}
+.ExplainBox__P {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+
+  font-size: medium;
+  font-weight: 600;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  line-height: 0;
+  margin-bottom: -14%;
+  transition-duration: 0.7s;
+  visibility: hidden;
+}
+
+.suggestionsDiv:hover {
+  transition-duration: 0.8s;
+
+  background-size: 570px;
+
+  .ExplainBox__h1 {
+    text-shadow: 2px -3px 6px red;
+    margin-right: 8%;
+    transition-duration: 0.8s;
+  }
+
+  .ExplainBox__P {
+    font-size: medium;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px -2px 8px rgb(255, 0, 0);
+    margin-bottom: 27%;
+    transition-duration: 0.9s;
+    line-height: 30px;
+    visibility: visible;
+  }
+}
+
+.cart1 {
+  background-image: url("../bd__media/pics/food1.jpg");
+  background-size: 520px;
+  background-repeat: no-repeat;
+}
+
+.cart2 {
+  background-image: url("../bd__media/pics/Supplement.jpg");
+  background-size: 450px;
+}
+
+.cart3 {
+  background-image: url("../bd__media/pics/medicine.jpg");
+  background-size: 500px;
+}
+
+.cart4 {
+  background-image: url("../bd__media/pics/bulk.jpg");
+  background-size: 500px;
+}
+
+.cart5 {
+  background-image: url("../bd__media/pics/cutBody.jpg");
+  background-size: 500px;
+  background-position: 40px;
+}
+
+.cart6 {
+  background-image: url("../bd__media/pics/looseFat.jpg");
+  background-size: 450px;
+  background-position: 30px;
+}
+
+/* ************************************************************************************************************* */
+/* nav part */
+
+.MotivationH1 {
+  margin-top: 5%;
+  font-size: 40px;
+  font-weight: 800;
+  font: optional;
+  color: #ffffff;
+  text-shadow: 1px -1px 5px black;
+}
+
+.allVideosContainer {
+  display: flex;
+  width: 1000px;
+  height: 400px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+  margin-left: 16%;
+  direction: rtl;
+}
+
+.mainVideo {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  border: none;
+}
+video {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  box-shadow: 3px 4px 5px red, 5px 4px 10px blue;
+}
+
+.otherVideos {
+  display: flex;
+  width: 1100px;
+  height: 500px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  box-shadow: inset 3px 4px 5px red, inset 5px 4px 10px blue;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(242, 245, 248);
+}
+
+.video1__other {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 1%;
+  margin: 1%;
+  border: none;
+  border-radius: 20px;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 3px 4px 5px red, 5px 4px 10px blue;
+  cursor: grab;
+  transition-duration: 0.5s;
+}
+
+.video1__other:hover {
+  box-shadow: inset 3px 4px 5px red, inset 5px 4px 10px blue;
+}
+
+.playNewVideo {
+  display: flex;
+  width: 220px;
+  height: 400px;
+  padding: 6% 10%;
+  margin: 1.5%;
+  border: none;
+  border-radius: 50px;
+  background-size: cover;
+  box-shadow: inset 3px 4px 5px red, inset 5px 4px 10px blueviolet;
+  cursor: crosshair;
+  transition-duration: 0.5s;
+}
+
+/* ************************************************************************************************************* */
+/* artical parts */
+
+.articalH1 {
+  color: #f0eded;
+  text-shadow: 1px -1px 5px black;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 20%;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.allArticalContainer {
+  display: flex;
+  width: 1330px;
+  height: 500px;
+  background-image: linear-gradient(
+    to right,
+    rgb(102, 206, 180) 30%,
+    #dfdfdf,
+    #255 40%
+  );
+  background-size: cover;
+  background-position: 506.5rem;
+  margin: auto;
+  margin-top: 5%;
+  border: none;
+  border-radius: 20px;
+}
+
+.articalsBox {
+  display: inline-block;
+  width: 300px;
+  height: 450px;
+  inset: 0;
+  margin: auto;
+  position: relative;
+  background-color: #30aebe;
+  box-shadow: 3px 4px 7px #fff, 4px -3px 7px #dfdfdf;
+  border: none;
+  border-radius: 30px;
+  transition-duration: 0.5s;
+  overflow: hidden;
+  transition-duration: 0.4s;
+
+  justify-content: center;
+}
+
+.articalsBox:hover {
+  width: 550px;
+  height: 460px;
+  transition-duration: 0.5s;
+}
+
+.articalTitels {
+  font-size: x-large;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+
+.articalUl {
+  width: 500px;
+  height: 200px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  float: right;
+  line-height: 150%;
+  direction: rtl;
+  list-style-type: circle;
+}
+.articalLi {
+  width: 250px;
+  font-size: medium;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px black;
+  opacity: 0;
+  transition-duration: 0.8s;
+}
+
+.articalsBox:hover {
+  box-shadow: inset 3px 4px 7px rgb(13, 223, 195);
+
+  background-color: rgba(43, 128, 128, 0.897);
+  .articalLi {
+    display: inline-block;
+    margin-left: 20%;
+    width: 300px;
+    font-size: medium;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    transition-duration: 0.4s;
+    line-height: 200%;
+    opacity: 1;
+  }
+
+  .articalLi:hover {
+    width: 350px;
+    cursor: default;
+    font-size: larger;
+    font-weight: 900;
+    transition-duration: 0.4s;
+  }
+
+  .downloadBTN {
+    opacity: 1;
+    transition-duration: 0.5s;
+  }
+
+  .articalUl {
+    list-style-type: circle;
+  }
+}
+
+.downloadBTN {
+  display: inline-block;
+  padding: 1%;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  inset: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 15%;
+  cursor: pointer;
+  color: #111111e7;
+  background-color: rgb(5, 245, 165);
+  font-size: large;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.downloadBTN:hover {
+  color: rgb(5, 245, 165);
+  background-color: #111111e7;
+}
